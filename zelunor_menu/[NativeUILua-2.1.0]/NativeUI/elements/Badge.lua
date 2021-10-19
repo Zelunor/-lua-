@@ -19,7 +19,7 @@ BadgeStyle = {
 	Michael = 17,
 	Star = 18,
 	Tattoo = 19,
-	Trevor = 20, 
+	Trevor = 20,
 	Lock = 21,
 	Tick = 22
 }
@@ -46,63 +46,63 @@ BadgeTexture = {
 	[6] = function(Selected)
 		if Selected then
 			return "shop_ammo_icon_b"
-		else 
+		else
 			return "shop_ammo_icon_a"
 		end
 	end,
 	[7] = function(Selected)
 		if Selected then
 			return "shop_armour_icon_b"
-		else 
+		else
 			return "shop_armour_icon_a"
 		end
 	end,
 	[8] = function(Selected)
 		if Selected then
 			return "shop_barber_icon_b"
-		else 
+		else
 			return "shop_barber_icon_a"
 		end
 	end,
 	[9] = function(Selected)
 		if Selected then
 			return "shop_clothing_icon_b"
-		else 
+		else
 			return "shop_clothing_icon_a"
 		end
 	end,
 	[10] = function(Selected)
 		if Selected then
 			return "shop_franklin_icon_b"
-		else 
+		else
 			return "shop_franklin_icon_a"
 		end
 	end,
 	[11] = function(Selected)
 		if Selected then
 			return "shop_garage_bike_icon_b"
-		else 
+		else
 			return "shop_garage_bike_icon_a"
 		end
 	end,
 	[12] = function(Selected)
 		if Selected then
 			return "shop_garage_icon_b"
-		else 
+		else
 			return "shop_garage_icon_a"
 		end
 	end,
 	[13] = function(Selected)
 		if Selected then
 			return "shop_gunclub_icon_b"
-		else 
+		else
 			return "shop_gunclub_icon_a"
 		end
 	end,
 	[14] = function(Selected)
 		if Selected then
 			return "shop_health_icon_b"
-		else 
+		else
 			return "shop_health_icon_a"
 		end
 	end,
@@ -116,14 +116,14 @@ BadgeTexture = {
 	[16] = function(Selected)
 		if Selected then
 			return "shop_mask_icon_b"
-		else 
+		else
 			return "shop_mask_icon_a"
 		end
 	end,
 	[17] = function(Selected)
 		if Selected then
 			return "shop_michael_icon_b"
-		else 
+		else
 			return "shop_michael_icon_a"
 		end
 	end,
@@ -140,7 +140,7 @@ BadgeTexture = {
 	[20] = function(Selected)
 		if Selected then
 			return "shop_trevor_icon_b"
-		else 
+		else
 			return "shop_trevor_icon_a"
 		end
 	end,

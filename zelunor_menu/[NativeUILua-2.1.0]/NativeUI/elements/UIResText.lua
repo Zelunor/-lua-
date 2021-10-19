@@ -61,7 +61,7 @@ function AddLongStringForUtf8(str)
         end
     end
     AddTextComponentSubstringPlayerName(string.sub(str, startIndex, GetCharacterCount(str) - startIndex))
-end 
+end
 
 function AddLongString(str)
     local bytecount = GetByteCount(str)

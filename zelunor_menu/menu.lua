@@ -21,7 +21,7 @@ menu.OnCheckboxChange = function (sender, item, checked_)
 end
 end
 
-function SecondItem(menu) 
+function SecondItem(menu)
 local click = NativeUI.CreateItem("Heal me", "~g~Heal yourself")
 menu:AddItem(click)
 menu.OnItemSelect = function(sender, item, index)
@@ -42,7 +42,7 @@ weapons = {
 function ThirdItem(menu)
 local gunsList = NativeUI.CreateListItem("Get Guns", weapons, 1)
 menu:AddItem(gunsList)
-menu.OnListSelect = function(sender, item, index)  
+menu.OnListSelect = function(sender, item, index)
     if item == gunsList then
         local selectedGun = item:IndexToItem(index)
         giveWeapon(selectedGun)
@@ -53,9 +53,9 @@ end
 -- voor "FourthItem"
 
 seats = {-1,0,1,2}
-function FourthItem(menu) 
+function FourthItem(menu)
 
-local submenu = _menuPool:AddSubMenu(menu, "~b~Sub Menu") 
+local submenu = _menuPool:AddSubMenu(menu, "~b~Sub Menu")
 local carItem = NativeUI.CreateItem("Spawn car", "Spawn car in a submenu")
 carItem.Activated = function(sender, item)
     if item == carItem then
